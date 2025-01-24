@@ -4,13 +4,14 @@ body {
        font-weight: weight;
        font-style: normal;
       background-color: hsl(212, 45%, 89%);
+     max-width: 1920px;
     } 
 
 main{
      display:flex;
      justify-content: center;
      align-items: center;
-     
+     flex-direction: column;
      
     }
 
@@ -56,6 +57,11 @@ main{
     color: hsl(200, 15%, 55%);
     padding: 3px 10px;
  }
+.attribution {
+    
+    font-size: 11px;
+    text-align: center;
+  }
 
  
  
